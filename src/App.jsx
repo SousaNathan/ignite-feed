@@ -1,10 +1,12 @@
+import { Header } from './components/Header.jsx'
 import { Post } from './Post.jsx'
 
-export function App() {
+import './global.css'
 
+export function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <Header />
       <Post
         author="Nathan Sousa"
         content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolorum, et, laudantium qui nihil fugit cumque laborum nostrum, nam dolor aliquid minus ad sunt quod aliquam cupiditate odit reiciendis aut?"
